@@ -1,0 +1,48 @@
+.Nav {
+  height: 70px;
+  background: linear-gradient(170deg, green, blue);
+  width: 100%;
+  border-bottom: 2px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Image {
+  height: 40px;
+  /* z-index: 1; */
+}
+
+.Title {
+  margin-left: 20px;
+  color: white;
+}
+
+.Title:hover {
+  color: yellow;
+}
+
+.CartDiv {
+  margin-right: 30px;
+  position: relative;
+  /* border: 0.5px solid white; */
+}
+
+.Items {
+  position: absolute;
+  background-color: orange;
+  /* z-index: 2; */
+  width: 20px;
+  text-align: center;
+  border: 0.5px solid white;
+  border-radius: 50%;
+  z-index: 10;
+  top: -10px;
+  right: -10px;
+  font-size: 13px;
+  /* transform: translatex(-8px) translatey(-8px); */
+}
+
+.cartCountVisible {
+  visibility: hidden;
+}
